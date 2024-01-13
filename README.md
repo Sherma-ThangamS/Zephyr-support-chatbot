@@ -1,4 +1,4 @@
-# Zephyr Support Chatbot Training
+# Zephyr Support Chatbot  
 
 ## Overview
 
@@ -8,6 +8,20 @@ This project focuses on training a support chatbot using the Zephyr 7B model, ta
 ## Objective
 
 The primary goal of this project is to train a support chatbot using the Zephyr 7B model, customized for a specific customer support use case. The chatbot is designed to respond to user queries in a professional manner, surpassing the performance of the Llama2-70b-chat model.
+
+## Pre-trained Model on Hugging Face Model Hub
+
+ I have released a pre-trained version of the Zephyr Support Chatbot on the Hugging Face Model Hub. You can find it [here](https://huggingface.co/sst1/zephyr-support-chatbot). Feel free to use this pre-trained model for quick integration into your projects.
+
+To use the pre-trained model, you can load it using the Hugging Face Transformers library:
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_name = "sst1/zephyr-support-chatbot"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
+```
 
 ## Key Components
 
