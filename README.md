@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on training a support chatbot using the Zephyr 7B model, tailored for a specific customer support use case. The chatbot aims to provide professional responses, outperforming the Llama2-70b-chat model.
+ In this project, I fine tuned zephyr-7B-alpha-GPTQ which is the quantized model using Q-Lora technique with the help of SFTTrainer from trl.
 
 
 ## Objective
