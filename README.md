@@ -51,19 +51,10 @@ The primary goal of this project is to train a support chatbot using the Zephyr 
 
 - Python libraries: transformers, trl, peft, accelerate, bitsandbytes, auto-gptq, optimum.
 
-## Setup
-
-1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Mount Google Drive if applicable: `from google.colab import drive; drive.mount('/content/drive')`
-
-## Configuration
-
-- Configure the training parameters in the `Config` class within the script.
 
 ## Training
 
-- Run the training script: `python train_chatbot.py`
+- Run the training script: `FineTunning.ipynb`
 - Monitor training progress and adjust parameters as needed.
 
 ## Evaluation
